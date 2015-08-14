@@ -1,0 +1,583 @@
+#hpPreview{
+    background-image: url('../images/BG1.png');
+    background-size:cover;
+    width: 100%;
+    height: 570px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+#startBrand{
+    padding-top: 20px;
+    background-color: #e8535a;
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    right: 22%;
+    top:185px;
+    z-index: 0;
+}
+#startBrand h2{
+    font-size: 4.2rem;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+#startBrand h4{
+    font-size: 3.2rem;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+#enterBrandName input{
+    height: 40px;
+    width: 230px;
+    margin-right: -7px;
+    border: 1px solid white;
+    color:black;
+}
+#enterBrandName button{
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+#enterBrandName button:hover{
+    background-color: #554c4c;
+}
+#infoMessage{
+    background-color: black;
+    width: 300px;
+    height: 60px;
+    position: relative;
+    right: 290px;
+    bottom: 60px;
+}
+#infoMessage h5{
+    padding: 5px;
+    font-size: 1.6rem;
+    line-height: 16px;
+}
+#socialLogo {
+    background-color: #E8535A;
+    top: 110px;
+    right: 0px;
+    width: 30px;
+    height: 100px;
+    position: fixed;
+    padding: 3px;
+    z-index: 10;
+}
+.spritesheetSocialLogo{
+    background-image: url("../images/social.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+.sprite-Fb {
+    width: 9px;
+    height: 20px;
+    background-position: -7px -7px;
+    position: relative;
+    left: 7px;
+    top: 8px;
+}
+.sprite-Fb:hover{
+    transform: scale(1.5);
+}
+.sprite-Twitter {
+    width: 20px;
+    height: 18px;
+    background-position: -7px -77px;
+    position: relative;
+    left: 3px;
+    top: 18px;
+}
+.sprite-Twitter:hover{
+    transform: scale(1.5);
+}
+.sprite-Pinterest {
+    width: 17px;
+    height: 22px;
+    background-position: -7px -41px;
+    position: relative;
+    left: 3px;
+    top: 30px;
+}
+.sprite-Pinterest:hover{
+    transform: scale(1.5);
+}
+.spriteBG {
+    background-image: url('../images/spritesheetBG.png');
+    background-repeat: no-repeat;
+    display: block;
+}
+#howItWork{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    font-weight: normal;
+    margin: 0px;
+    padding-top: 45px;
+    z-index: 1;
+    background-position: center top;
+}
+#howItWork h1{
+    font-size: 3.2rem;
+    margin-bottom: 40px;
+}
+#howItWork div{
+    display: inline-block;
+    margin-top: 5px;
+}
+#howItWork h4{
+    width: 190px;
+    position: absolute;;
+    left: 28%;
+}
+#namelabel{
+    position: absolute;
+    left: 13%;
+}
+#createdesign {
+    position: absolute;
+    left: 33%;
+}
+#shareprofit{
+    position: absolute;
+    right: 14%;
+}
+.spriteHP {
+    background-image: url("../images/howitwork.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Create {
+    width: 148px;
+    height: 148px;
+    background-position: -5px -5px;
+    padding: 10px;
+}
+
+.sprite-Produce {
+    width: 148px;
+    height: 148px;
+    background-position: -163px -5px;
+}
+
+.sprite-Sell {
+    width: 148px;
+    height: 148px;
+    background-position: -5px -163px;
+}
+
+#dreamUp{
+    background-position:bottom center;
+    width: 100%;
+    height: 400px;
+}
+#dreamUp p{
+    margin: auto;
+    line-height:25px;
+    text-align:center;
+    padding-top: 60px;
+    font-size: 2rem;
+}
+#userLove{
+    background-position: center;
+    width: 100%;
+    height: 270px;
+    color: white;
+    text-align: center;
+}
+#userLove h2{
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+#userLove p{
+    width: 550px;
+    margin: auto;
+    font-size: 2.2rem;
+    font-style: italic;
+}
+#yourStyle {
+    width: 100%;
+    height: 200px;
+    background-color: #dddddd;
+    text-align: center;
+}
+#yourStyle h3 {
+    padding-top: 50px;
+    margin: auto;
+}
+#signUp{
+    background-color:#e8535a;
+    width: 200px;
+    height: 34px;
+    position: relative;
+    top: 40px;
+    padding-top: 5px;
+    margin: auto;
+}
+#signUp a{
+    color: white;
+    font-size: 2rem;
+}
+#bottomBar{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    margin: 0px;
+    color: white;
+}
+#coutAllureltd {
+    position: relative;
+    top: 40px;
+    right: 8%;
+    font-size: 1.5rem
+}
+#botnavLinks{
+    position: relative;
+    top: 40px;
+    right: 50%;
+}
+#botnavLinks a{
+    color: white;
+    margin-right: 20px;
+    font-size:1.3rem;
+}
+@media screen and (max-width:1270px){
+    #navLinks li {
+        position: relative;
+        left: 97%;
+    }
+}
+@media screen and (max-width:1170px){
+    #topBarSignUp {
+        position: relative;
+        left: 15%;
+    }
+    #namelabel {
+        position: absolute;
+        left: 10%;
+    }
+    #shareprofit {
+        position: absolute;
+        right: 11%;
+    }
+}
+@media screen and (max-width:1130px){
+    #navLinks li {
+        display: inline;
+        position: relative;
+        left: 93%;
+    }
+    #coutAllureLogoimg{
+        position: relative;
+        top: 11px;
+        left: 180px;
+    }
+    #coutAllureLogo h3{
+        position: relative;
+        top: 15px;
+        left: 180px;
+    }
+    @media screen and (max-width:1106px){
+        #coutAllureLogoimg {
+            position: absolute;
+            top: 16px;
+            left: 157px;
+        }
+        #coutAllureLogo h3{
+            position: relative;
+            top: 15px;
+            left: 180px;
+        }
+    }
+}
+@media screen and (max-width:1080px){
+    #coutAllureLogo h3 {
+        position: absolute;
+        bottom: 15px;
+        left: 202px;
+    }
+    #coutAllureLogoimg {
+        position: relative;
+        top: 17px;
+        left: 150px;
+    }
+    #howItWork h4 {
+        width: 190px;
+        position: absolute;
+        left: 23%;
+    }
+}
+@media screen and (max-width:1047px) {
+    #coutAllureLogoimg{
+        position: relative;
+        top: 15px;
+        left: 90px;
+    }
+    #coutAllureLogo h3{
+        position: absolute;
+        top: 15px;
+        left: 142px;
+    }
+    #topBarSignUp {
+        position: relative;
+        left: 16%;
+    }
+}
+@media screen and (max-width:991px){
+    #coutAllureltd {
+        position: relative;
+        bottom: 10px;
+        left: 70%;
+        font-size: 1.5rem;
+        width: 200px;
+    }
+
+    #coutAllureLogo{
+        margin: 0px;
+    }
+    #navLinks li {
+        position: relative;
+        left: 55%;
+        bottom: 20px;
+    }
+    #topBarSignUp {
+        position: relative;
+        left: 78%;
+        bottom: 49px;
+    }
+    #createdesign {
+        position: absolute;
+        left: 40%;
+    }
+    #userLove p{
+        width: 500px;
+    }
+    #coutAllureLogo h3 {
+        position: absolute;
+        left: 142px;
+    }
+    #howItWork h4 {
+        width: 190px;
+        position: absolute;
+        left: 1%;
+    }
+}
+@media screen and (max-width:950px){
+    #navLinks li {
+        position: relative;
+        left: 53%;
+        bottom: 20px;
+    }
+}
+@media screen and (max-width:860px){
+    #infoMessage {
+        position: relative;
+        right: 190px;
+        bottom: 80px;
+        width: 200px;
+        height: 100px;
+    }
+    #infoMessage h5 {
+        line-height: 17.5px;
+    }
+    #navLinks li {
+        position: relative;
+        left: 50%;
+        bottom: 20px;
+    }
+}
+@media screen and (max-width:840px){
+    #shareprofit {
+        position: absolute;
+        right: 11%;
+    }
+}
+@media screen and (max-width:800px){
+    #navLinks li {
+        position: relative;
+        left: 40%;
+        bottom: 20px;
+    }
+    #topBarSignUp {
+        position: relative;
+        left: 72%;
+        bottom: 49px;
+    }
+}
+@media screen and (max-width:790px){
+    #createdesign {
+        position: absolute;
+        left: 38%;
+    }
+}
+@media screen and (max-width:770px){
+    #shareprofit {
+        position: absolute;
+        right: 10%;
+    }
+}
+@media screen and (max-width:737px){
+    #infoMessage {
+        position: relative;
+        right: 150px;
+        bottom: 80px;
+        width: 160px;
+        height: 120px;
+    }
+}
+@media screen and (max-width:700px) {
+    #coutAllureLogoimg {
+        position: relative;
+        top: 15px;
+        left: 0px;
+    }
+    #dropdownMenu{
+        display: inline;
+        position: absolute;
+        right: 1px;
+        top: 1px;
+    }
+    #login{
+        border: none;
+        padding: 0px;
+    }
+    #socialLogo{
+        display: none;
+    }
+    #unique{
+        position: absolute;
+        right: 2px;
+        top: 35px;
+        font-size: 1.5rem;
+        background-color:#e8535a;
+    }
+    #unique a{
+        color: white;
+    }
+    #unique li{
+        line-height: 30px
+    }
+    #unique ul{
+        list-style: none;
+        padding: 8px;
+    }
+    #navLinks{
+        display: none;
+    }
+    #topBarSignUp{
+        display: none;
+    }
+    #namelabel{
+        position: absolute;
+        left: 8%;
+    }
+    #createdesign {
+        position: absolute;
+        left: 38%;
+    }
+    #signUp {
+        position: relative;
+        top: 30px;
+    }
+    #coutAllureltd{
+        width: 170px;
+    }
+    #coutAllureLogo h3 {
+        position: absolute;
+        left: 52px;
+        top: 15px;
+    }
+}
+@media screen and (max-width:670px){
+    #shareprofit {
+        position: absolute;
+        right: 4%;
+    }
+    #infoMessage{
+        display: none;
+    }
+}
+@media screen and (max-width:629px){
+    #howItWork h4{
+        font-size: 1.7rem;
+    }
+}
+@media screen and (max-width:575px){
+    #shareprofit {
+        position: absolute;
+        right: 2%;
+    }
+}
+@media screen and (max-width:551px){
+    #signUp {
+        position: relative;
+        top: 10px;
+    }
+    #shareprofit {
+        position: absolute;
+        right: 1%;
+    }
+}
+@media screen and (max-width:538px){
+    #namelabel {
+        position: absolute;
+        left: 2%;
+    }#createdesign {
+         position: absolute;
+         left: 34%;
+     }
+}
+@media screen and (max-width:525px){
+    #startBrand{
+        padding-top: 20px;
+        background-color:transparent;
+        position: absolute;
+        right: 1%;
+        top:180px;
+    }
+    #startBrand h2{
+        background-color:#e8535a;
+        margin-top: 0px;
+        padding: 5px;
+        margin-bottom: 100px;
+    }
+    #startBrand h4{
+        background-color: black;
+        padding: 5px;
+    }
+    #enterBrandName input{
+        display: none;
+    }
+    #enterBrandName button{
+        display: none;
+    }
+    #namelabel{
+        position: absolute;
+        left: 1%;
+    }
+    #createdesign {
+        position: absolute;
+        left: 30%;
+    }
+    #shareprofit{
+        position: absolute;
+        right: 1%;
+    }
+    #userLove p{
+        width: 450px;
+    }
+    #coutAllureLogoimg{
+        position: relative;
+        left: 1px;
+    }
+    #coutAllureLogo h3 {
+        position: absolute;
+        left: 50px;
+        top: 15px;
+    }
+}

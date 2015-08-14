@@ -1,0 +1,92 @@
+html{
+    font-family: 'Open Sans';
+    font-size: 10px;
+     width: 100%;
+    height: 100%;
+}
+body{
+   height: 100%;
+}
+#landingPage{
+    background-image: url('../images/BG.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    width: 100%;
+    height: 100%;
+    
+}
+#fashionWay{
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    color: white;
+    text-align: center;
+    width: 80%;
+}
+#fashionWay h2{
+    font-size: 3rem;
+    padding-top: 5px;
+}
+#fashionWay h4{
+    padding-top: 10px;
+    font-size: 2rem;
+}
+#coutAllureLogo{
+    position: absolute;
+    left: 46%;
+    top: 28%;
+    width: 50px;
+}
+#enterEmail{
+    padding-top: 20px;
+}
+#enterEmail button{
+    background-color: black;
+    height: 37px;
+    width: 90px;
+    border: 1px solid white;
+    padding: 0px;
+}
+#enterEmail input{
+    color: black;
+    height: 37px;
+    width: 220px;
+    border: 0px;
+    padding: 0px;
+    position: relative;
+left: 5px;
+}
+@media screen  and (max-width: 1144px)
+{
+    html{
+        font-size: 9px;
+    }
+}
+@media screen  and (max-width: 1136px){
+    html{
+        font-size: 8px;
+    }
+}
+@media screen  and (max-width: 975px){
+    #coutAllureLogo{
+    position: absolute;
+    left: 42%;
+   }
+}
+@media screen  and (max-width: 700px){
+#enterEmail button{
+    height: 25px;
+    width: 70px;
+}
+#enterEmail input{
+    height: 25px;
+    width: 180px;
+}
+}
+@media screen  and (max-width: 700px){
+#coutAllureLogo{
+    position: absolute;
+    left: 38%;
+   }
+}

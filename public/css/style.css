@@ -1,0 +1,80 @@
+html{
+    font-size: 8px;
+}
+body{
+    font-family: 'Open Sans';
+}
+/*
+* @ header CSS
+*/
+#topBar{
+    background-color:#e8535a;
+    margin: 0px;
+    height: 35px;
+    width: 100%;
+    position: fixed;
+    z-index: 11;
+}
+#dropdownMenu{
+    display: none;
+}
+
+#coutAllureLogo{
+    bottom: 10px;
+    color: white;
+    width: 15%;
+}
+#coutAllureLogo div{
+    display: inline-block;
+}
+#coutAllureLogoimg{
+    position: relative;
+    top: 12px;
+    left: 250px;
+}
+#coutAllureLogo h3{
+    margin: 0;
+    display: inline-block;
+    font-size: 2.5rem;
+    position: relative;
+    top: 16px;
+    left: 250px;
+}
+#navLinks{
+    padding-top: 6px;
+}
+#navLinks li{
+    display: inline;
+    position: relative;
+    left: 100%;
+}
+#navLinks a{
+    color: white;
+    font-size: 1.3rem;
+    margin-right: 15px;
+
+}
+#login{
+    border: 2px solid;
+    border-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+#topBarSignUp{
+    background-color:white;
+    width: 133px;
+    height: 20px;
+    position: relative;
+    left: 14%;
+    margin-left: 40px;
+    margin-top: 7px;
+}
+#topBarSignUp a{
+    color: #e8535a;
+    margin-left: 8px;
+    font-size: 1.31rem;
+    position: relative;
+    bottom: 1.5px;
+}
