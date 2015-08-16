@@ -85,3 +85,29 @@ Route::post('EmailForm-Post',function(){
 }
 
 );
+
+
+
+
+
+Route::model('forums', 'Forum');
+
+
+Route::bind('forums', function($value, $route) {
+	return App\Models\Forum::whereId($value)->first();
+});
+
+Route::resource('forums', 'ForumsController');
+
+
+
+
+Route::model('forumposts', 'ForumPost');
+
+
+Route::bind('forumposts', function($value, $route) {
+	return App\Models\ForumPost::whereId($value)->first();
+});
+
+Route::resource('forumposts', 'ForumPostController');
+
