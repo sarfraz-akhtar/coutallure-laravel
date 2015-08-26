@@ -1,0 +1,29 @@
+
+    <div class="col-md-9">
+        <div id="botnavLinks" class="nav pull-right">
+            <a href="aboutus">ABOUT US</a>
+            <a href="../blog">BLOGS</a>
+            <a href="forum">FORUM</a>
+            <?php if ( ! (Auth::check())): ?>
+            <a href="auth/login">LOG IN</a>
+                <?php endif; ?>
+        </div>
+    </div>
+    <div id="coutAllureltd" class="col-md-3">
+        &copy;2015CoutAllure LTD
+    </div>
+    <?php /*Scripts*/ ?>
+    <script src="<?php echo e(asset('/js/jquery.min.js')); ?>"></script>
+    <script src="<?php echo e(asset('/js/home.js')); ?>"></script>
+
+    <script>
+        function a() {
+            var lis = document.getElementById("navLinks") || document.getElementById("unique");
+            if (lis.id === 'navLinks') {
+                lis.removeAttribute("id");
+                lis.setAttribute("id", "unique");
+            }
+            else
+                lis.setAttribute("id", "navLinks");
+        }
+    </script>

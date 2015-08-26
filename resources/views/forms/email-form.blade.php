@@ -2,13 +2,14 @@
 {{Form::open(array(
 'url' =>'EmailForm-Post',
 'method' => 'POST',
-'id'=>'RegEmailForm'))}}
+'id'=>'emailForm'))}}
 <ul class="errors">
     @foreach($errors->all() as $message)
         <li>{{ $message }}</li>
     @endforeach
 </ul>
-{{Form::email('email', null, array('id'=>'emailField','placeholder'=>'Enter email address'))}}
+{{Form::email('email', null, array('id'=>'emailField','placeholder'=>'Enter email address','data-validate'=>'required,email'))}}
 
-{{Form::submit('Send', array('id'=>'EnterEmail-submit'))}}
+{{Form::submit('Subscribe', array('id'=>'EnterEmail-submit','class'=>'submit'))}}
 {{Form::close()}}
+

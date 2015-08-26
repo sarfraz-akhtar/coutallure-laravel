@@ -1,0 +1,7 @@
+<?php $__env->startSection('content'); ?>
+
+    <div id="main"><img src="images/under_constr.jpg" height="100%" width="100%;"/> </div>
+
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.default', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

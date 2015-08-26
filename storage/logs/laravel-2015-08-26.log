@@ -1,0 +1,36 @@
+[2015-08-26 03:24:08] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '')); ?>"></script>' (T_CONSTANT_ENCAPSED_STRING)' in C:\xampp\htdocs\laravel\storage\framework\views\a70d9eedbb4aa2d86423a5adfd3ba7eb:21
+Stack trace:
+#0 {main}  
+[2015-08-26 03:24:22] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '')); ?>"></script>' (T_CONSTANT_ENCAPSED_STRING)' in C:\xampp\htdocs\laravel\storage\framework\views\a70d9eedbb4aa2d86423a5adfd3ba7eb:21
+Stack trace:
+#0 {main}  
+[2015-08-26 03:24:45] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '')); ?>"></script>' (T_CONSTANT_ENCAPSED_STRING)' in C:\xampp\htdocs\laravel\storage\framework\views\a70d9eedbb4aa2d86423a5adfd3ba7eb:21
+Stack trace:
+#0 {main}  
+[2015-08-26 03:25:41] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '')); ?>"></script>' (T_CONSTANT_ENCAPSED_STRING)' in C:\xampp\htdocs\laravel\storage\framework\views\a70d9eedbb4aa2d86423a5adfd3ba7eb:21
+Stack trace:
+#0 {main}  
+[2015-08-26 03:26:39] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '')); ?>"></script>' (T_CONSTANT_ENCAPSED_STRING)' in C:\xampp\htdocs\laravel\storage\framework\views\a70d9eedbb4aa2d86423a5adfd3ba7eb:21
+Stack trace:
+#0 {main}  
+[2015-08-26 03:26:55] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '')); ?>"></script>' (T_CONSTANT_ENCAPSED_STRING)' in C:\xampp\htdocs\laravel\storage\framework\views\a70d9eedbb4aa2d86423a5adfd3ba7eb:21
+Stack trace:
+#0 {main}  
+[2015-08-26 03:28:29] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '')); ?>"></script>' (T_CONSTANT_ENCAPSED_STRING)' in C:\xampp\htdocs\laravel\storage\framework\views\a70d9eedbb4aa2d86423a5adfd3ba7eb:21
+Stack trace:
+#0 {main}  
+[2015-08-26 03:30:26] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '')); ?>"></script>' (T_CONSTANT_ENCAPSED_STRING)' in C:\xampp\htdocs\laravel\storage\framework\views\a70d9eedbb4aa2d86423a5adfd3ba7eb:21
+Stack trace:
+#0 {main}  
+[2015-08-26 03:30:47] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '')); ?>"></script>' (T_CONSTANT_ENCAPSED_STRING)' in C:\xampp\htdocs\laravel\storage\framework\views\a70d9eedbb4aa2d86423a5adfd3ba7eb:21
+Stack trace:
+#0 {main}  
+[2015-08-26 03:32:47] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '')); ?>"></script>' (T_CONSTANT_ENCAPSED_STRING)' in C:\xampp\htdocs\laravel\storage\framework\views\a70d9eedbb4aa2d86423a5adfd3ba7eb:21
+Stack trace:
+#0 {main}  
+[2015-08-26 03:33:34] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '')); ?>"></script>' (T_CONSTANT_ENCAPSED_STRING)' in C:\xampp\htdocs\laravel\storage\framework\views\a70d9eedbb4aa2d86423a5adfd3ba7eb:21
+Stack trace:
+#0 {main}  
+[2015-08-26 03:37:27] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';'' in C:\xampp\htdocs\laravel\storage\framework\views\a70d9eedbb4aa2d86423a5adfd3ba7eb:16
+Stack trace:
+#0 {main}  

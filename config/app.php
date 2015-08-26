@@ -146,6 +146,8 @@ return [
 		'App\Providers\RouteServiceProvider',
 		//custom html service provider
 		'Collective\Html\HtmlServiceProvider',
+		// images uplaod via ajax
+		'Sukohi\Surpass\SurpassServiceProvider',
 	],
 
 	/*
@@ -195,6 +197,8 @@ return [
 		'View'      => 'Illuminate\Support\Facades\View',
 		'Form' => 'Collective\Html\FormFacade',
 		'Html' => 'Collective\Html\HtmlFacade',
+		'Surpass'   => 'Sukohi\Surpass\Facades\Surpass',
+
 
 	],
 

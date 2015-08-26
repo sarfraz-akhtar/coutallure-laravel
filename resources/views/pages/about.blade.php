@@ -1,7 +1,7 @@
-@extends('app')
+@extends('layouts.default')
 @section('content')
 
-<h1> This page currently under development</h1>
+    <div id="main"><img src="images/under_constr.jpg" height="100%" width="100%;"/> </div>
 
 
 @endsection

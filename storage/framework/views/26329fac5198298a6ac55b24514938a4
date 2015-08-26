@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <?php echo $__env->make('includes.head', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+</head>
+<body>
+<!--- page header -------->
+<header  class="row" id="topBar">
+<?php echo $__env->make('includes.header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+        </header>
+<?php echo $__env->yieldContent('content'); ?>
+<?php /*<!--- page footer -------->*/ ?>
+<footer id="bottomBar" class="row">
+<?php echo $__env->make('includes.footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+    <footer id="bottomBar" class="row">
+        <!-- Scripts -->
+
+<?php /*<script type="text/javascript" src="<?php echo e(@asset('/js/angular.min.js')); ?>"></script>*/ ?>
+<?php /*<script type="text/javascript" src="<?php echo e(@asset('/js/app.js')); ?>"></script>*/ ?>
+</body>
+</html>

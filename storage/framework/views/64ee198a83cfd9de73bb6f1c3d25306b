@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <?php echo $__env->make('includes.head', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+    <link href="<?php echo e(asset('/css/hp.css')); ?>" rel="stylesheet">
+</head>
+<body>
+<!--- page header -------->
+<header  class="row" id="topBar">
+    <?php echo $__env->make('includes.header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+</header>
+
+
+<div class="row" id="hpPreview">
+    <div class="col-md-3"></div>
+    <div class="col-md-9">
+        <div class="row">
+            <?php /*<?php echo $__env->make('email-form', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>*/ ?>
+            <?php print html_entity_decode(View::make('forms.email-form'));?>
+        </div>
+    </div>
+</div>
+<div id="socialLogo" >
+    <a  href="/Facebook.htm" >
+        <div class="spritesheetSocialLogo sprite-Fb">  </div> </a>
+    <a href="/about/Twitter.htm">
+        <div class="spritesheetSocialLogo sprite-Twitter">   </div></a>
+    <a href="/about/>Pinterest.htm">
+        <div class="spritesheetSocialLogo sprite-Pinterest"></div>
+    </a>
+</div>
+<div class="row spriteBG" id="howItWork">
+    <h1>How it works</h1>
+    <div class="col-md-4" id="namelabel">
+        <div class="spriteHP sprite-Create">
+        </div>
+        <h4>Name your own label</h4>
+    </div>
+    <div class="col-md-4" id="createdesign">
+        <div class="spriteHP sprite-Produce"></div>
+        <h4>Create amazing design</h4>
+    </div>
+    <div class="col-md-4" id="shareprofit">
+        <div class="spriteHP sprite-Sell"></div>
+        <h4>We sell & produce the best designs under your label and Share the profits</h4>
+    </div>
+</div>
+<div id="dreamUp" class="spriteBG">
+    <p>   Did you every dream-up a dress or a garments?<br>
+        you are not alone, so did many of us.<br>
+        So we dreamt-up an app for that.<br>
+        An apps that lets you design beautiful garments.<br>
+        An app we are very  excited about because its never been this easy to<br>
+        design & express your creativity.<br>
+        Sign up for your label before its taken & start designing.<br>
+        Then help the community to pick the best design,<br>
+        which we produce & sell under the designer's label & share the profit.<br><br>
+        The revolution start now, welcome to the future.
+    </p>
+</div>
+<div id="userLove" class="spriteBG">
+    <h2> Our user love us:</h2>
+    <p>"lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+        mi est, facilisis eu purus sit amet, aliquam sollicitudin diam.
+        Duis vel dolor eu ipsum vestibulum semper." </p>
+    Name Surname, location
+</div>
+<div id="yourStyle">
+    <h3> So let the world know what your style is all about!</h3>
+    <?php if ( ! (Auth::check())): ?>
+        <div id="signUp">
+            <a  href="auth/register">SIGN UP FOR FREE</a>
+        </div>
+    <?php endif; ?>
+
+</div>
+
+<?php /*<!--- page footer -------->*/ ?>
+
+<footer id="bottomBar" class="row">
+    <?php echo $__env->make('includes.footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+</footer>
+<?php /*<script type="text/javascript" src="<?php echo e(@asset('/js/angular.min.js')); ?>"></script>*/ ?>
+<?php /*<script type="text/javascript" src="<?php echo e(@asset('/js/app.js')); ?>"></script>*/ ?>
+</body>
+</html>
+

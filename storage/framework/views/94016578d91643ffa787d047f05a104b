@@ -1,0 +1,19 @@
+
+<?php echo e(Form::open(array(
+'url' =>'EmailForm-Post',
+'method' => 'POST',
+'id'=>'emailForm'))); ?>
+
+<ul class="errors">
+    <?php foreach($errors->all() as $message): ?>
+        <li><?php echo e($message); ?></li>
+    <?php endforeach; ?>
+</ul>
+<?php echo e(Form::email('email', null, array('id'=>'emailField','placeholder'=>'Enter email address','data-validate'=>'required,email'))); ?>
+
+
+<?php echo e(Form::submit('Subscribe', array('id'=>'EnterEmail-submit','class'=>'submit'))); ?>
+
+<?php echo e(Form::close()); ?>
+
+

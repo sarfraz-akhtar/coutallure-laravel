@@ -27,7 +27,8 @@
         "App\\Providers\\ConfigServiceProvider",
         "App\\Providers\\EventServiceProvider",
         "App\\Providers\\RouteServiceProvider",
-        "Collective\\Html\\HtmlServiceProvider"
+        "Collective\\Html\\HtmlServiceProvider",
+        "Sukohi\\Surpass\\SurpassServiceProvider"
     ],
     "eager": [
         "Illuminate\\Auth\\AuthServiceProvider",
@@ -127,7 +128,8 @@
         "html": "Collective\\Html\\HtmlServiceProvider",
         "form": "Collective\\Html\\HtmlServiceProvider",
         "Collective\\Html\\HtmlBuilder": "Collective\\Html\\HtmlServiceProvider",
-        "Collective\\Html\\FormBuilder": "Collective\\Html\\HtmlServiceProvider"
+        "Collective\\Html\\FormBuilder": "Collective\\Html\\HtmlServiceProvider",
+        "surpass": "Sukohi\\Surpass\\SurpassServiceProvider"
     },
     "when": {
         "Illuminate\\Foundation\\Providers\\ArtisanServiceProvider": [
@@ -164,6 +166,9 @@
 
         ],
         "Collective\\Html\\HtmlServiceProvider": [
+
+        ],
+        "Sukohi\\Surpass\\SurpassServiceProvider": [
 
         ]
     }

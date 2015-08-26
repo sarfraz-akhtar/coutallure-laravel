@@ -40,15 +40,15 @@ Route::post('BrandNameForm-Post',function(){
 // about us page
 Route::get('aboutus', function()
 {
-	return View::make('pages.about',array());
+	return view('pages.about',array());
 });
 Route::get('blog', function()
 {
-	return View::make('pages.about',array());
+	return view('pages.about',array());
 });
 Route::get('forum', function()
 {
-	return View::make('pages.about',array());
+	return view('pages.about',array());
 });
 Route::filter('auth', function()
 {
@@ -110,4 +110,5 @@ Route::bind('forumposts', function($value, $route) {
 });
 
 Route::resource('forumposts', 'ForumPostController');
+
 

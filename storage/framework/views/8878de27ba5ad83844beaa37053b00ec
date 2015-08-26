@@ -1,0 +1,31 @@
+
+    <div class="col-md-3" id="coutAllureLogo">
+
+        <div id="coutAllureLogoimg"><img alt="" src="<?php echo e(asset('/images/logo.png')); ?>"></div>
+        <h3> CoutAllure</h3>
+    </div>
+    <div id="dropdownMenu">
+        <img alt="" src="<?php echo e(asset('/images/dropdown.png')); ?>" onclick="a()">
+
+    </div>
+    <div class="col-md-6" id="navLinks">
+        <ul>
+            <li> <a href="<?php echo e(print URL::to('/')); ?>/aboutus">ABOUT US</a></li>
+            <li>  <a href="<?php echo e(print URL::to('/')); ?>/blog">BLOGS</a> </li>
+            <li> <a href="<?php echo e(print URL::to('/')); ?>/forum">FORUM</a></li>
+            <li>
+                <?php if(Auth::check()): ?>
+                    <a id="auth/logout" href="<?php echo e(print URL::to('/')); ?>/logout">LOG OUT</a>
+                    <?php else: ?>
+
+                    <a id="login" href="<?php echo e(print URL::to('/')); ?>/auth/login">LOG IN</a>
+                    <?php endif; ?>
+            </li>
+        </ul>
+    </div>
+    <?php if ( ! (Auth::check())): ?>
+    <div class="col-md-3" id="topBarSignUp">
+        <a href="<?php echo e(print URL::to('/')); ?>/auth/register">SIGN UP FOR FREE</a>
+
+    </div>
+    <?php endif; ?>
